@@ -631,8 +631,9 @@ function Hero() {
           color: "var(--dim)", fontSize: "1.2rem", lineHeight: 1.65,
           maxWidth: 560, marginBottom: "2.4rem",
         }}>
-          Building functional, user-centric web applications and solving complex
-          algorithmic challenges — one commit at a time.
+          I am a full-stack developer focused on building functional, user-centric
+          web applications. Currently shaping digital spaces for student ecosystems
+          and creating interactive web games.
         </p>
 
         <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
@@ -679,21 +680,21 @@ const PROJECTS = [
   {
     art: "note", accent: "var(--gold)", name: "RhythmMania",
     url: "https://rhythm-mania.com", label: "rhythm-mania.com",
-    desc: "A low-latency web-based rhythm game with custom note mapping, canvas rendering, and a fully responsive UI designed for precision gameplay.",
-    tags: ["TypeScript", "Canvas API", "CSS3"],
+    desc: "An engaging web-based rhythm game experience with low-latency input parsing and an osu!mania-like experience. Built with pure TypeScript and Canvas API.",
+    tags: ["TypeScript", "Canvas API", "osu!mania-like"],
     image: "/assets/RM.png",
   },
   {
     art: "school", accent: "var(--cyan)", name: "Zhonghua Secondary\nUnofficial Site",
     url: "https://zhonghuasec.school", label: "zhonghuasec.school",
-    desc: "A community-driven web space for Zhonghua Secondary — high performance, streamlined resource organisation, and optimised asset delivery.",
+    desc: "A modern, high-performance, community-driven web space built for Zhonghua Secondary — just a site I made for fun for my school.",
     tags: ["Frontend", "Web Performance", "HTML / CSS"],
     image: "/assets/ZH.png",
   },
   {
     art: "key", accent: "var(--purple)", name: "ZPortal",
     url: "https://zportal.zhonghuasec.school", label: "zportal.zhonghuasec.school",
-    desc: "A secure student dashboard for resource coordination and scheduling — PHP backend, MySQL database, clean and intuitive frontend.",
+    desc: "A customized, smart dashboard for student resource coordination and scheduling — programmed using PHP with a MySQL database.",
     tags: ["PHP", "MySQL", "Dashboard"],
     image: "/assets/ZP.png",
   },
@@ -837,8 +838,8 @@ function ObsessionQuote() {
    SKILLS — LOADOUT
 ═════════════════════════════════════════════ */
 const SKILL_GROUPS = [
-  { label: "FLUENT IN", color: "var(--gold)", items: ["Python", "JavaScript", "HTML5", "CSS3"] },
-  { label: "FRAMEWORKS & TOOLS", color: "var(--purple)", items: ["TypeScript", "React", "Node.js", "Django", "Flask", "Vite", "PHP", "MySQL"] },
+  { label: "LANGUAGES", color: "var(--gold)", items: ["Python", "JavaScript", "TypeScript", "PHP"] },
+  { label: "TOOLS & FRAMEWORKS", color: "var(--purple)", items: ["React", "Node.js", "Vite", "Django", "Flask", "MySQL", "SQL"] },
   { label: "DOMAIN FOCUS", color: "var(--cyan)", items: ["Full-Stack Dev", "Competitive Programming", "Canvas / Game Dev", "DB Design", "UI/UX"] },
 ];
 
@@ -868,7 +869,7 @@ function Skills() {
       </div>
       <Reveal delay={150}>
         <div style={{ marginTop: "3.5rem", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}>
-          <Marquee items={["Python", "JavaScript", "TypeScript", "React", "Node.js", "Django", "Flask", "PHP", "MySQL", "Vite", "Canvas API", "CSS3", "HTML5", "Git"]} />
+          <Marquee items={["Python", "JavaScript", "TypeScript", "PHP", "React", "Node.js", "Vite", "Django", "Flask", "MySQL", "SQL"]} />
         </div>
       </Reveal>
     </section>
@@ -879,10 +880,11 @@ function Skills() {
    ACHIEVEMENTS — HIGH SCORE TABLE
 ═════════════════════════════════════════════ */
 const ACHIEVEMENTS = [
-  { art: "trophy", code: "NYTC 2026", name: "National Youth Tech Championship", desc: "Winner of the 2026 national technology competition." },
-  { art: "puzzle", code: "BEBRAS", name: "Bebras Computational Thinking Challenge", desc: "International informatics challenge testing computational thinking skills." },
-  { art: "lozenge", code: "NJIO", name: "National Junior Informatics Olympiad", desc: "Competed in Singapore's national-level algorithmic programming olympiad." },
-  { art: "medal", code: "IJIO", name: "International Junior Informatics Olympiad", desc: "Brought algorithmic expertise to the international competitive programming stage." },
+  { art: "trophy", code: "NYTC 2026", name: "National Youth Tech Championship", result: "Champion (1st Place)", desc: "Winner of the 2026 national technology competition." },
+  { art: "monitor", code: "NRC 2026", name: "National Robotics Games", result: "Overall Champion (Secondary) & Best Robot Performance (Secondary)", desc: "Champion robotics run in the secondary category with best robot performance." },
+  { art: "puzzle", code: "BEBRAS 2025 & 2026", name: "Bebras Computational Thinking Challenge", result: "Gold & Silver", desc: "International challenge testing computational thinking skills." },
+  { art: "lozenge", code: "NJIO 2025", name: "National Junior Informatics Olympiad", result: "Gold", desc: "Singapore's national-level algorithmic programming olympiad." },
+  { art: "medal", code: "IJIO 2026", name: "International Junior Informatics Olympiad", result: "Bronze", desc: "Brought algorithmic expertise to the international competitive programming stage." },
 ];
 
 function Achievements() {
@@ -917,6 +919,7 @@ function Achievements() {
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div className="px" style={{ color: "var(--gold)", fontSize: "0.55rem", letterSpacing: "0.06em", marginBottom: "0.4rem" }}>{a.code}</div>
                 <div style={{ fontFamily: "var(--tmn)", fontSize: "1.1rem", color: "var(--ink)", lineHeight: 1.35 }}>{a.name}</div>
+                <div className="px" style={{ color: "var(--green)", fontSize: "0.5rem", letterSpacing: "0.05em", marginTop: "0.35rem" }}>{a.result}</div>
                 <div style={{ color: "var(--dim)", fontSize: "0.98rem", lineHeight: 1.5, marginTop: "0.2rem" }}>{a.desc}</div>
               </div>
             </div>
@@ -947,7 +950,7 @@ function Contact() {
         <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
           <ArcadeButton gold href="https://github.com/yumo-ymspace" target="_blank" rel="noreferrer">GITHUB →</ArcadeButton>
           <ArcadeButton ghost href="https://zportal.zhonghuasec.school" target="_blank" rel="noreferrer">ZPORTAL →</ArcadeButton>
-          <ArcadeButton ghost href="mailto:yumo@yumo-ym.space">EMAIL ME</ArcadeButton>
+          <ArcadeButton ghost href="mailto:yumo@ymspace.cloud">EMAIL ME</ArcadeButton>
         </div>
       </Reveal>
       <Reveal delay={120}>

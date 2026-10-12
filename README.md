@@ -1,21 +1,19 @@
 # 👋 Hi, I'm Yumo (@yumo-ymspace) 
 ### 🚀 Junior Full-Stack Developer | Competitive Programmer | Student
 
-I am a full-stack developer focused on building functional, user-centric web applications and solving complex algorithmic challenges. Currently shaping digital spaces for student ecosystems and creating interactive web games.
+I am a full-stack developer focused on building functional, user-centric web applications. Currently shaping digital spaces for student ecosystems and creating interactive web games.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🏆 Fluent In
+### 🏆 Languages
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-### ⚙️ Tools & Frameworks (Experienced)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+
+### ⚙️ Tools & Frameworks
 ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/sql-%2300758F.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -26,33 +24,34 @@ I am a full-stack developer focused on building functional, user-centric web app
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 My Projects
 
 ### [🎵 RhythmMania](https://github.com/yumo-ymspace/RhythmMania)
 An engaging web-based rhythm game experience.
 - **Website:** [rhythm-mania.com](https://rhythm-mania.com)
-- **Tech Stack:** Built with pure TypeScript, Canvas API, and CSS3.
-- **Focus:** Low-latency input parsing, custom note mapping, and responsive UI design.
+- **Tech Stack:** Built with pure TypeScript and Canvas API
+- **Focus:** Low-latency input parsing, and osu!mania-like experience.
 
 ### [🏫 Zhonghua Secondary Unofficial Site](https://github.com/yumo-ymspace/Zhonghua-Sec-Unofficial-Site)
 A modern, high-performance, community-driven web space built for Zhonghua Secondary.
 - **Website:** [zhonghuasec.school](https://zhonghuasec.school)
-- **Tech Stack:** Modern frontend structure, streamlined resource organization, and optimized asset delivery for a clean browsing experience.
+- **Tech Stack:** Just a site I made for fun for my school.
 
 ### [🔑 ZPortal](https://zportal.zhonghuasec.school)
 A customized, smart dashboard designed specifically for student resource coordination and scheduling.
 - **Website:** [zportal.zhonghuasec.school](https://zportal.zhonghuasec.school)
-- **Tech Stack:** Programmed from the ground up utilizing a **PHP** backend engine integrated with secure relational **MySQL** database.
+- **Tech Stack:** Programmed using **PHP** with a **MySQL** database.
 
 ---
 
 ## 🎖️ Competitive Programming & Achievements
-I actively participate in computational thinking and informatics championships to sharpen my problem-solving skill sets:
+I participate in computational thinking and informatics championships to sharpen my problem-solving skill sets:
 
-- **NYTC 2026 Winner** (National Youth Tech Championship)
-- **Bebras** Computational Thinking Challenge
-- **NJIO** (National Junior Informatics Olympiad)
-- **IJIO** (International Junior Informatics Olympiad)
+- **NYTC 2026** (National Youth Tech Championship) - Champion (1st Place)
+- **NRC 2026** (Nationa Robotics Games) - Overall Champion (Secondary) & Best Robot Performance (Secondary)
+- **Bebras 2025 & 2026** Computational Thinking Challenge - Gold & Silver
+- **NJIO 2025** (National Junior Informatics Olympiad) - Gold
+- **IJIO 2026** (International Junior Informatics Olympiad) - Bronze
 
 ---
 
